@@ -3,12 +3,12 @@ inx = 0
 while inx < len(my_list):
     if my_list[inx] > 0:
         print(my_list[inx])
-        inx += 1
-        continue
     elif my_list[inx] == 0:
         inx += 1
+        continue
     else:
-        print()
         break
+    inx += 1
+
 
 
